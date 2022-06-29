@@ -1,0 +1,41 @@
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+    background-color: coral;
+}
+.slideShow-Elements{
+    text-align: center; 
+}
+.slideShow-Element{
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0); 
+    transition: transform 0.5s ;
+}
+.slideShow-Element i{
+    color: rgb(104, 56, 23); 
+    font-size: 10rem;
+}
+.slideShow-Element h1{
+    color: rgb(104, 56, 23); 
+    font-size: 10rem;
+}
+.slideShow-Element.current{
+    transform: translate(-50%, -50%) scale(1);  
+} 
+footer{
+    text-align: center;
+} 
+footer div a{
+    list-style: none;
+    font-size: 2rem;
+} 
+footer div a i{
+   margin: 5px 10px;
+} 
+h2{
+    font-size: 3rem; 
+    margin-top: 30px;
+} 
+
